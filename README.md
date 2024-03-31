@@ -2,7 +2,7 @@
 
 This is an extension of an project created by [aaron3636](https://github.com/aaron3636) and [GravityDarkLab](https://github.com/GravityDarkLab). The Readme was slightly adapted , all rights belong to them.
 
-His Repository of the [FrontEnd](https://github.com/aaron3636/KAPFrontEnd) and [BackEnd](https://github.com/aaron3636/KAP).
+Their repositorys of the [FrontEnd](https://github.com/aaron3636/KAPFrontEnd) and [BackEnd](https://github.com/aaron3636/KAP).
 
 
 
