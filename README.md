@@ -1,7 +1,14 @@
 # Klinisches Anwendungsprojekt - Server Repository
 
-Welcome to the Klinisches Anwendungsprojekt (Clinical Application Project) server repository! This project comprises a server and a client application designed to streamline the testing of clinical data resources. The server is built upon the open-source [Hapi-FHIR](https://hapifhir.io/) project and incorporates bearer token authentication for enhanced security.
+This is an extension of an project created by [aaron3636](https://github.com/aaron3636) and [GravityDarkLab](https://github.com/GravityDarkLab). The Readme was slightly adapted , all rights belong to them.
 
+His Repository of the [FrontEnd](https://github.com/aaron3636/KAPFrontEnd) and [BackEnd](https://github.com/aaron3636/KAP).
+
+
+
+
+
+Welcome to the Klinisches Anwendungsprojekt (Clinical Application Project) server repository! This project comprises a server and a client application designed to streamline the testing of clinical data resources. The server is built upon the open-source [Hapi-FHIR](https://hapifhir.io/) project.
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -15,13 +22,13 @@ Welcome to the Klinisches Anwendungsprojekt (Clinical Application Project) serve
 
 ## Introduction
 
-In the context of clinical applications, it is crucial to have a reliable and easy-to-use environment for testing different resources. This project aims to provide a practical solution for testing a server with clinical data resources. The server, based on Hapi-FHIR, offers various RESTful endpoints, and we have added bearer token authentication to enhance security.
+In the context of clinical applications, it is crucial to have a reliable and easy-to-use environment for testing different resources. This project aims to extend the already existing [CAP](https://github.com/GravityDarkLab/Clinical-Application-Project) . The server, based on Hapi-FHIR, offers various RESTful endpoints.
 
 ## Frontend Integration
 
-This server repository is designed to seamlessly integrate with the frontend component of the project, available in the repository [KAPFrontEnd](https://github.com/aaron3636/KAPFrontEnd). Together, these two repositories offer a comprehensive solution for clinical application testing, providing a user-friendly interface to interact with the clinical data resources.
+This server repository is designed to seamlessly integrate with the frontend component of the project, available in the repository [FrontendwithoutAuth](https://github.com/Zilkib/FrontendwithoutAuth.git). Together, these two repositories offer a comprehensive solution for clinical application testing, providing a user-friendly interface to interact with the clinical data resources.
 
-We invite you to explore the [KAPFrontEnd](https://github.com/aaron3636/KAPFrontEnd) repository to leverage the full potential of the Klinisches Anwendungsprojekt. The frontend enhances the overall user experience and complements the functionality of the server.
+I invite you to explore the [FrontendwithoutAuth](https://github.com/Zilkib/FrontendwithoutAuth.git) repository to leverage the full potential of the Klinisches Anwendungsprojekt. The frontend enhances the overall user experience and complements the functionality of the server.
 
 ## Client - PatientGenerator
 
@@ -29,8 +36,7 @@ The `PatientGenerator-client` is a mock client application designed to generate 
 
 ## Server Configuration
 
-The `server` directory contains the Hapi-FHIR-based server, which serves as the core component of this project. We have customized the server to suit the specific requirements of our clinical application. Bearer token authentication has been integrated to secure the server and control access to sensitive patient data.
-
+The `server` directory contains the Hapi-FHIR-based server, which serves as the core component of this project. I have customized the server to suit the specific requirements of our clinical application, by removing the authentification and adding Conditions. 
 ## Getting Started
 
 To get started with the Klinisches Anwendungsprojekt, follow these steps:
@@ -50,11 +56,11 @@ To get started with the Klinisches Anwendungsprojekt, follow these steps:
 
 Once you have set up the project and the server is running, you can use the PatientGenerator-client to generate random patient data and interact with the server. This is especially useful for testing the server's handling of different resources, such as creating, updating, and deleting patients.
 
-Ensure that you have appropriate authorization tokens to access the server's resources. Refer to the server's `README.md` for details on how to obtain and use the bearer tokens.
+Refer to the server's `README.md` for more details.
 
 ## Acknowledgment
 
-Special thanks to the [Hapi-FHIR](https://github.com/hapifhir/hapi-fhir-jpaserver-starter) community for providing the core server component that forms the foundation of our Klinisches Anwendungsprojekt. Their dedication to open-source excellence has been instrumental in advancing healthcare interoperability. We are grateful for their exceptional work and contributions.
+Special thanks to [aaron3636](https://github.com/aaron3636) and [GravityDarkLab](https://github.com/GravityDarkLab).
 
 ## License
 
@@ -62,4 +68,4 @@ The Klinisches Anwendungsprojekt is distributed under the [MIT License](LICENSE)
 
 ---
 
-Thank you for your interest in the Klinisches Anwendungsprojekt. We hope this project proves to be a valuable asset in your clinical application testing endeavors. If you have any questions or need further assistance, please don't hesitate to reach out to us. Happy testing!
+Thank you for your interest in the Klinisches Anwendungsprojekt. If you have any questions or need further assistance, please don't hesitate to reach out to us. Happy testing!
