@@ -68,4 +68,4 @@ The Klinisches Anwendungsprojekt is distributed under the [MIT License](LICENSE)
 
 ---
 
-Thank you for your interest in the Klinisches Anwendungsprojekt. If you have any questions or need further assistance, please don't hesitate to reach out to us. Happy testing!
+Thank you for your interest in the Klinisches Anwendungsprojekt. If you have any questions or need further assistance, please don't hesitate to reach out to me. Happy testing!
