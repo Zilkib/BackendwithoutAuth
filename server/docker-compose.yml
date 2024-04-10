@@ -24,5 +24,17 @@ services:
     volumes:
       - hapi-fhir-postgres-db:/var/lib/postgresql/data
 
+  
+  #static-server:
+    #image: python:3.9-slim
+    #container_name: static-server
+    #command: python -m http.server 8000
+    #restart: always
+    #ports:
+      #- '8000:8000'
+    #volumes:
+      #add the directory of the datafile here (type http://localhost:8000/app/data/ in browser to acess)
+      #- directory of file (\app\data):/app/data
+
 volumes:
   hapi-fhir-postgres-db:
